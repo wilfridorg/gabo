@@ -1,0 +1,94 @@
+
+body {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+
+
+
+
+.contenedor_header {
+    height: 10vh;
+    background-color: gray; 
+    text-align: left;
+    padding: 10px 20px;}
+  
+   
+    .logo-container {
+        display: inline-block;
+        text-align: left;  
+    
+     
+ }
+ .logo {
+    vertical-align: middle;  
+   
+ } 
+ .menu, ul {
+    list-style: none;
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+    
+     
+ }  
+ .menu, ul li {          
+    display: inline-block; 
+   margin-right: 20px; 
+   text-align: right;     
+ }
+
+.menu, ul li a {
+    text-decoration: none;
+    color: aliceblue;
+    list-style: none; 
+        
+ }
+
+ header nav ul li a:hover {
+background: rgba(250, 250, 250, 0.39);
+}
+
+.contenedor_main {
+    height: 80vh;
+    background-image: url(IMAGENES/banner.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    color: aliceblue;
+    padding: 20px;
+   
+}
+
+.article {    
+    padding: 10px;
+    font-size: 22px;   
+}
+.article h1 {
+    text-align: right;
+}
+
+.article,  p {
+    text-align: justify;
+    letter-spacing: 2px;
+    font-size: 26px;
+}
+
+.caja{
+    width: 30%;
+    position: relative;
+    left: 60%;
+    
+}
+
+.contenedor_footer {
+    height: 10vh;
+    background-color: gray;       
+}
+
+.pie_footer{
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
